@@ -1,7 +1,7 @@
 #!/bin/bash
 
 LIB_VERSION='0.11';
-LIB_URL_LUA_REST_CACHE="https://github.com/openresty/lua-resty-lrucache/archive/refs/tags/v${LIB_VERSION}.tar.gz";
+LIB_URL_LUA_REST_CACHE="https://github.com/openresty/lua-resty-lrucache/archive/refs/tags/v0.11.tar.gz";
 srcDirNameLuaRestCache=$(downloadFile "$LIB_URL_LUA_REST_CACHE");
 (
   cd "$srcDirNameLuaRestCache" || exit;
