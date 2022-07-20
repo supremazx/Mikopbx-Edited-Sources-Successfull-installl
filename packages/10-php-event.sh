@@ -1,7 +1,7 @@
 #!/bin/bash
 
 LIB_VERSION='2.5.6';
-LIB_URL="https://pecl.php.net/get/event-${LIB_VERSION}.tgz";
+LIB_URL="https://pecl.php.net/get/event-2.5.6.tgz";
 LIB_PRIORITY='40';
 LIB_PHP_MODULE_PREFIX_INI='';
 LIB_CONFIGURE_OPTIONS='';
