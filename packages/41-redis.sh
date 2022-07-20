@@ -1,7 +1,7 @@
 #!/bin/bash
 
 LIB_VERSION='6.2.1';
-LIB_URL="https://download.redis.io/releases/redis-${LIB_VERSION}.tar.gz";
+LIB_URL="https://download.redis.io/releases/redis-6.2.1.tar.gz";
 srcDirName=$(downloadFile "$LIB_URL");
 (
   cd "$srcDirName" || exit;
