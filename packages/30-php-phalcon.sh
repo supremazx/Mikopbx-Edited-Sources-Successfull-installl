@@ -1,7 +1,7 @@
 #!/bin/bash
 
 LIB_VERSION='4.1.0';
-LIB_URL="https://github.com/phalcon/cphalcon/archive/v${LIB_VERSION}.tar.gz";
+LIB_URL="https://github.com/phalcon/cphalcon/archive/v4.1.0.tar.gz";
 LIB_PRIORITY='40';
 LIB_PHP_MODULE_PREFIX_INI='';
 LIB_NAME='phalcon';
