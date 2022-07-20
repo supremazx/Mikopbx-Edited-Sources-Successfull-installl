@@ -1,7 +1,7 @@
 #!/bin/bash
 
 LIB_VERSION='1.2.9a-par';
-LIB_URL="http://deb.debian.org/debian/pool/main/p/pdnsd/pdnsd_${LIB_VERSION}.orig.tar.gz";
+LIB_URL="http://deb.debian.org/debian/pool/main/p/pdnsd/pdnsd_1.2.9a-par.orig.tar.gz";
 srcDirName=$(downloadFile "$LIB_URL");
 (
   cd "$srcDirName" || exit;
