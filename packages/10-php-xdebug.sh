@@ -1,7 +1,7 @@
 #!/bin/bash
 
 LIB_VERSION='2.9.5';
-LIB_URL="https://xdebug.org/files/xdebug-${LIB_VERSION}.tgz";
+LIB_URL="https://xdebug.org/files/xdebug-2.9.5.tgz";
 LIB_PRIORITY='50';
 LIB_PHP_MODULE_PREFIX_INI='zend_';
 LIB_CONFIGURE_OPTIONS='--enable-xdebug';
