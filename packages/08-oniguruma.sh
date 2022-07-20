@@ -1,7 +1,7 @@
 #!/bin/bash
 
 LIB_VERSION='6.9.7.1';
-LIB_URL="https://github.com/kkos/oniguruma/releases/download/v${LIB_VERSION}/onig-${LIB_VERSION}.tar.gz";
+LIB_URL="https://github.com/kkos/oniguruma/releases/download/v${LIB_VERSION}/onig-6.9.7.1.tar.gz";
 
 srcDirName=$(downloadFile "$LIB_URL");
 (
