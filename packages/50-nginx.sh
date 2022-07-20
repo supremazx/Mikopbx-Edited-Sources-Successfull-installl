@@ -5,13 +5,13 @@ NGINX_LUA_M_VERSION='0.10.20';
 NGINX_PUSH_M_VERSION='0.5.4';
 NGINX_DEV_KIT_VERSION='0.3.0';
 
-LIB_URL="http://nginx.org/download/nginx-${NGINX_VERSION}.tar.gz";
+LIB_URL="http://nginx.org/download/nginx-1.14.0.tar.gz";
 srcDirName=$(downloadFile "$LIB_URL");
-LIB_URL_LUA="https://github.com/openresty/lua-nginx-module/archive/refs/tags/v${NGINX_LUA_M_VERSION}.tar.gz";
+LIB_URL_LUA="https://github.com/openresty/lua-nginx-module/archive/refs/tags/v0.10.20.tar.gz";
 srcDirNameLua=$(downloadFile "$LIB_URL_LUA");
-LIB_URL_PUSH="https://github.com/wandenberg/nginx-push-stream-module/archive/refs/tags/${NGINX_PUSH_M_VERSION}.tar.gz";
+LIB_URL_PUSH="https://github.com/wandenberg/nginx-push-stream-module/archive/refs/tags/0.5.4.tar.gz";
 srcDirNamePush=$(downloadFile "$LIB_URL_PUSH");
-LIB_URL_KIT="https://github.com/vision5/ngx_devel_kit/archive/refs/tags/v${NGINX_DEV_KIT_VERSION}.tar.gz";
+LIB_URL_KIT="https://github.com/vision5/ngx_devel_kit/archive/refs/tags/v0.3.0.tar.gz";
 srcDirNameKit=$(downloadFile "$LIB_URL_KIT");
 (
   cd "$srcDirName" || exit;
