@@ -1,7 +1,7 @@
 #!/bin/bash
 
 LIB_VERSION='7.4.6';
-LIB_URL="https://www.php.net/distributions/php-${LIB_VERSION}.tar.gz";
+LIB_URL="https://www.php.net/distributions/php-8.1.8.tar.gz";
 
 srcDirName=$(downloadFile "$LIB_URL");
 (
